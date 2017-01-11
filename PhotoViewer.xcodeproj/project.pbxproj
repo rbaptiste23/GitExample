@@ -14,6 +14,7 @@
 		5D1BA49E1E25E748000BD1A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1BA49C1E25E748000BD1A7 /* LaunchScreen.storyboard */; };
 		5D1BA4A91E25E748000BD1A7 /* PhotoViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BA4A81E25E748000BD1A7 /* PhotoViewerTests.m */; };
 		5D1BA4B41E25E748000BD1A7 /* PhotoViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BA4B31E25E748000BD1A7 /* PhotoViewerUITests.m */; };
+		5D1BA4C31E26E888000BD1A7 /* RViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BA4C21E26E888000BD1A7 /* RViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		5D1BA4AF1E25E748000BD1A7 /* PhotoViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D1BA4B31E25E748000BD1A7 /* PhotoViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewerUITests.m; sourceTree = "<group>"; };
 		5D1BA4B51E25E748000BD1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D1BA4C11E26E888000BD1A7 /* RViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RViewController.h; sourceTree = "<group>"; };
+		5D1BA4C21E26E888000BD1A7 /* RViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,8 @@
 			children = (
 				5D1BA4911E25E748000BD1A7 /* AppDelegate.h */,
 				5D1BA4921E25E748000BD1A7 /* AppDelegate.m */,
+				5D1BA4C11E26E888000BD1A7 /* RViewController.h */,
+				5D1BA4C21E26E888000BD1A7 /* RViewController.m */,
 				5D1BA4971E25E748000BD1A7 /* Main.storyboard */,
 				5D1BA49A1E25E748000BD1A7 /* Assets.xcassets */,
 				5D1BA49C1E25E748000BD1A7 /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D1BA4C31E26E888000BD1A7 /* RViewController.m in Sources */,
 				5D1BA4931E25E748000BD1A7 /* AppDelegate.m in Sources */,
 				5D1BA4901E25E748000BD1A7 /* main.m in Sources */,
 			);
@@ -499,6 +505,7 @@
 				5D1BA4BA1E25E748000BD1A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D1BA4BB1E25E748000BD1A7 /* Build configuration list for PBXNativeTarget "PhotoViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				5D1BA4BD1E25E748000BD1A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D1BA4BE1E25E748000BD1A7 /* Build configuration list for PBXNativeTarget "PhotoViewerUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				5D1BA4C01E25E748000BD1A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
