@@ -1,24 +1,22 @@
 //
-//  RViewController.m
+//  InfoViewController.m
 //  PhotoViewer
 //
-//  Created by pcadmin on 1/11/17.
+//  Created by pcadmin on 1/12/17.
 //  Copyright © 2017 pcadmin. All rights reserved.
 //
 
-#import "RViewController.h"
+#import "InfoViewController.h"
 
-@interface RViewController ()
+@interface InfoViewController ()
 
 @end
 
-@implementation RViewController
+@implementation InfoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,24 +1,22 @@
 //
-//  RViewController.m
+//  DisplayViewController.m
 //  PhotoViewer
 //
-//  Created by pcadmin on 1/11/17.
+//  Created by pcadmin on 1/12/17.
 //  Copyright © 2017 pcadmin. All rights reserved.
 //
 
-#import "RViewController.h"
+#import "DisplayViewController.h"
 
-@interface RViewController ()
+@interface DisplayViewController ()
 
 @end
 
-@implementation RViewController
+@implementation DisplayViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {

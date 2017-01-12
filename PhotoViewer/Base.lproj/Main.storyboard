@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Photos Table View Controller-->
         <scene sceneID="OZm-eU-eot">
             <objects>
-                <tableViewController id="bYv-gn-fVf" sceneMemberID="viewController">
+                <tableViewController id="bYv-gn-fVf" customClass="PhotosTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="4Th-RR-tw0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="-2456.8000000000002" y="-583.3583208395803"/>
         </scene>
-        <!--View Controller-->
+        <!--Display View Controller-->
         <scene sceneID="5yd-Pl-dWQ">
             <objects>
-                <viewController id="5j4-up-jb6" sceneMemberID="viewController">
+                <viewController id="5j4-up-jb6" customClass="DisplayViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="n0W-bU-Azf"/>
                         <viewControllerLayoutGuide type="bottom" id="tcs-Qd-6pC"/>
@@ -73,10 +73,10 @@
             </objects>
             <point key="canvasLocation" x="-1479.2" y="-564.46776611694156"/>
         </scene>
-        <!--View Controller-->
+        <!--Info View Controller-->
         <scene sceneID="DVf-sh-S4N">
             <objects>
-                <viewController id="XsQ-U9-F5W" sceneMemberID="viewController">
+                <viewController id="XsQ-U9-F5W" customClass="InfoViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0Pr-X9-eSE"/>
                         <viewControllerLayoutGuide type="bottom" id="A8M-65-LCv"/>

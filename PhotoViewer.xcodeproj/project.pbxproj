@@ -14,7 +14,10 @@
 		5D1BA49E1E25E748000BD1A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1BA49C1E25E748000BD1A7 /* LaunchScreen.storyboard */; };
 		5D1BA4A91E25E748000BD1A7 /* PhotoViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BA4A81E25E748000BD1A7 /* PhotoViewerTests.m */; };
 		5D1BA4B41E25E748000BD1A7 /* PhotoViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BA4B31E25E748000BD1A7 /* PhotoViewerUITests.m */; };
-		5D1BA4C31E26E888000BD1A7 /* RViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BA4C21E26E888000BD1A7 /* RViewController.m */; };
+		5D1BA4C61E280D78000BD1A7 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BA4C51E280D78000BD1A7 /* Photo.m */; };
+		5D1BA4C91E280F74000BD1A7 /* PhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BA4C81E280F74000BD1A7 /* PhotosTableViewController.m */; };
+		5D1BA4CC1E28109B000BD1A7 /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BA4CB1E28109B000BD1A7 /* DisplayViewController.m */; };
+		5D1BA4CF1E2810B1000BD1A7 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BA4CE1E2810B1000BD1A7 /* InfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +52,14 @@
 		5D1BA4AF1E25E748000BD1A7 /* PhotoViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D1BA4B31E25E748000BD1A7 /* PhotoViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewerUITests.m; sourceTree = "<group>"; };
 		5D1BA4B51E25E748000BD1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D1BA4C11E26E888000BD1A7 /* RViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RViewController.h; sourceTree = "<group>"; };
-		5D1BA4C21E26E888000BD1A7 /* RViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RViewController.m; sourceTree = "<group>"; };
+		5D1BA4C41E280D78000BD1A7 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Photo.h; path = ../Photo.h; sourceTree = "<group>"; };
+		5D1BA4C51E280D78000BD1A7 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Photo.m; path = ../Photo.m; sourceTree = "<group>"; };
+		5D1BA4C71E280F74000BD1A7 /* PhotosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosTableViewController.h; sourceTree = "<group>"; };
+		5D1BA4C81E280F74000BD1A7 /* PhotosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosTableViewController.m; sourceTree = "<group>"; };
+		5D1BA4CA1E28109B000BD1A7 /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = "<group>"; };
+		5D1BA4CB1E28109B000BD1A7 /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
+		5D1BA4CD1E2810B1000BD1A7 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		5D1BA4CE1E2810B1000BD1A7 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +110,16 @@
 		5D1BA48D1E25E747000BD1A7 /* PhotoViewer */ = {
 			isa = PBXGroup;
 			children = (
+				5D1BA4C71E280F74000BD1A7 /* PhotosTableViewController.h */,
+				5D1BA4C81E280F74000BD1A7 /* PhotosTableViewController.m */,
+				5D1BA4CA1E28109B000BD1A7 /* DisplayViewController.h */,
+				5D1BA4CB1E28109B000BD1A7 /* DisplayViewController.m */,
+				5D1BA4CD1E2810B1000BD1A7 /* InfoViewController.h */,
+				5D1BA4CE1E2810B1000BD1A7 /* InfoViewController.m */,
+				5D1BA4C41E280D78000BD1A7 /* Photo.h */,
+				5D1BA4C51E280D78000BD1A7 /* Photo.m */,
 				5D1BA4911E25E748000BD1A7 /* AppDelegate.h */,
 				5D1BA4921E25E748000BD1A7 /* AppDelegate.m */,
-				5D1BA4C11E26E888000BD1A7 /* RViewController.h */,
-				5D1BA4C21E26E888000BD1A7 /* RViewController.m */,
 				5D1BA4971E25E748000BD1A7 /* Main.storyboard */,
 				5D1BA49A1E25E748000BD1A7 /* Assets.xcassets */,
 				5D1BA49C1E25E748000BD1A7 /* LaunchScreen.storyboard */,
@@ -273,8 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D1BA4C31E26E888000BD1A7 /* RViewController.m in Sources */,
+				5D1BA4CC1E28109B000BD1A7 /* DisplayViewController.m in Sources */,
+				5D1BA4C61E280D78000BD1A7 /* Photo.m in Sources */,
+				5D1BA4CF1E2810B1000BD1A7 /* InfoViewController.m in Sources */,
 				5D1BA4931E25E748000BD1A7 /* AppDelegate.m in Sources */,
+				5D1BA4C91E280F74000BD1A7 /* PhotosTableViewController.m in Sources */,
 				5D1BA4901E25E748000BD1A7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
