@@ -10,6 +10,7 @@
 
 @interface DisplayViewController ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *currentImage;
 @end
 
 @implementation DisplayViewController

@@ -9,6 +9,14 @@
 #import "PhotosTableViewController.h"
 
 @interface PhotosTableViewController ()
+{
+ // Used to make private variables
+ NSMutableArray *photos;
+}
+
+
+
+
 
 @end
 
@@ -22,6 +30,46 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    
+    photos = [[NSMutableArray alloc]init];
+    Photo *pic = [[Photo alloc] init ];
+    
+    pic.name = @"Emerald Bay";
+    pic.filename = @"emeraldbay";
+    pic.notes = @"Emerald Bay, one of Lake Tahoe's most popular and photogenic locations.";
+    [photos addObject:pic];
+    
+    
+    pic = [[Photo alloc]init];
+    pic.name = @"Joshua Tree";
+    pic.filename = @"joshuatree";
+    pic.notes = @"A Joshua Tree in the Mojave Desert.";
+    [photos addObject:pic];
+    
+    
+    pic = [[Photo alloc]init];
+    pic.name = @"Sunset in Ventura";
+    pic.filename = @"sunset";
+    pic.notes = @"Romantic sunset at the beach.";
+    [photos addObject:pic];
+    
+    pic = [[Photo alloc]init];
+    pic.name = @"Snowman at Lake Tahoe";
+    pic.filename = @"snowman";
+    pic.notes = @"Lake Tahoe gets 400 inches of snow every year.";
+    [photos addObject:pic];
+    
+    pic = [[Photo alloc]init];
+    pic.name = @"Red Rock";
+    pic.filename = @"redrock";
+    pic.notes = @"Spectacular formations at Red Rock Canyon State Park.";
+    [photos addObject:pic];
+    
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -32,24 +80,26 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    return photos.count;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
+   
+   UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+   
+ 
     // Configure the cell...
-    
+    Photo *current = [photos objectAtIndex:indexPath.row];
+    cell.textLabel.text = [current name];
+   
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.

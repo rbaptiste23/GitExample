@@ -9,6 +9,7 @@
 #import "InfoViewController.h"
 
 @interface InfoViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *detailsLabel;
 
 @end
 

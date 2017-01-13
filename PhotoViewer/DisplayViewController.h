@@ -10,5 +10,6 @@
 #import "Photo.h"
 
 @interface DisplayViewController : UIViewController
-
+// Used to pass data between Scenes
+@property (nonatomic) Photo *currentPhoto;
 @end
